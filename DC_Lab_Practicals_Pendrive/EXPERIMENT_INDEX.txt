@@ -1,0 +1,22 @@
+EXPERIMENT INDEX
+================
+
+01 - Load Balancing (Round Robin)                 Python
+02 - Scalability in Distributed Environments       Python
+03 - Client/Server using RPC                       Python (server + client)
+04 - IPC in Client-Server Environment              Java (server + client)
+05 - Election Algorithm                            Python
+06 - Distributed Deadlock                          Python
+07 - Name Resolution Protocol                      Python
+08 - Clock Synchronization (Berkeley Algorithm)    Java
+09 - Mutual Exclusion                              C (portable version)
+10 - Group Communication                           Python (server + 2 clients)
+11 - CORBA Architecture                            Theory only in supplied manual
+12 - Parallel Algorithms                           Python multiprocessing
+13 - Message Passing Interface (MPI)               Python + mpi4py
+
+Run order for multi-file practicals:
+- Exp 03: exp03_rpc_server.py first, then exp03_rpc_client.py.
+- Exp 04: compile/run server.java first, then compile/run client.java.
+- Exp 10: exp10_server.py first, then exp10_client1.py and exp10_client2.py.
+- Exp 13: mpiexec -n 2 python exp13_mpi_message_passing.py

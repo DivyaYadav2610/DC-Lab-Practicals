@@ -1,0 +1,7 @@
+Experiment 11: Study of CORBA Architecture
+
+The uploaded lab manual contains theory and architecture for this experiment only.
+There is no program/code section in the manual.
+
+Prepare the definition, ORB (Object Request Broker), CORBA reference model,
+advantages, and working from the theory pages (49-52).
